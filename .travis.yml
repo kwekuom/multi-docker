@@ -24,7 +24,6 @@ after_success:
     - docker push kwekuom/multi-worker
 
 deploy:
-    edge: true
     provider: elasticbeanstalk
     region: eu-west-2
     app: multi-docker
